@@ -5,122 +5,47 @@ title: Hacker Space CCDL
 
 ## CHANGELOG: 10/12/2019
 
-[Email]
+**Email**
 
 * Criado email para o Hacker Space CCDL.
 * email: `hackerspaceccdl@gmail.com`
 
-[Github]
+**Github**
 
 * Para compartilhamento de códigos produzidos pelo grupo e atividades, foi
   criado uma conta no Github
 
-* login: hackerspaceccdl
+* **login:** hackerspaceccdl
 
-# CHANGELOG: 03/12/2019
-`... em construção`
+## CHANGELOG: 03/12/2019
 
+* **Divulgação**
 
+Conversamos sobre melhorarmos a divulgação do HackerSpace e centralizarmos as informações do que é discutido nas reuniões e o que rola nas atividades, segue a lista:
 
+Criação de um site tipo um WIKI, o @Andre disse que pode ser aquelas paginas do GitHub mesmo, já que iremos produzir alguns códigos e ja podemos utilizar a mesma plataforma para compartilharmos código e informações. Eu particurlarmente gostei.
 
+Criação de um Flyers divulgando tudo que for rolar no mês e se possivel um
+semanal para lembrar a galera.
 
+Criação de um email para o grupo, com ele podemos criar a conta do GitHub e também se comunicar
 
+* **Infra Estrutura**
 
-* A full Bootstrap 4 theme usable both on Github Pages and with a standalone Jekyll.
-* Recompiles Bootstrap from SCSS files, which allows to customize Bootstrap's variables and use Bootstrap themes.
-* Full support of Bootstrap's JavaScript plugins.
-* Supports all features of Github Pages and Jekyll.
+Tem muita coisa a ser discutido sobre esse assunto, principalmente como iremos contribuir na organização da nossa Infra Estrutura enquanto grupo     HackerSpace(precisamos de um nome urgente) dentro do espaço CCDL. Precisamos
+marcar uma reunião com o Danilo e com o Mabu para discutirmos isso. Mas falamos sobre termos de inicio uma caixa organizadora, para trasermos algumas coisas, tipo o **@André** quer trazer um ferro de solda, eu tenho uma plaquina que é um mini PC quero fazer alguns projeto com elea e deixar no espaço para quem quiser usar, mas na real não quero deixar jogado é isso. Então quem tiver uma ai encostada e quiser doar só da um salve, cogitamos também de rolar uma vaquinha o que acham?
 
-## Setup Guide
+Coleta de Informações Outras Bibliotecas
 
-### Fork this repository
+Um dos projetos do HackerSpace é dar uma força para o Mabu no controle de  quem pega Livre e esquece da vida, tipo não da mais um salve que está com o  livro, em fim. Pensamos em criar mesmo um software com umas paradas automatica tipo, foi cadastrado que eu peguei um livro e estou tipo atrasado uns dois dias, eu irei receber um email automatico lembrando que é necessario renovar ou devolver.
+Tipo e ficar uns alertas na tela no sistema e uma maneira de puxar um relatório mensal, semanal de quantas pessoas estão nessa situação até para termos um controle melhor.
 
-[Go to this repository page on Github](https://github.com/nicolas-van/bootstrap-4-github-pages) and click the `Fork` button on the top right of the page.
+E discutimos também para não ficarmos reinventando a roda, estudarmos um pouco o Alexandria sistema que o Mabu e o Danilo usa para catalogar os livros, André e eu vimos a cara do sistema eu acredito que da para fazermos um controle de emprestimos de livro por ele. Talvez uma saida seria trocar uma ideia com algumas pessoas quem cuidam de outras Bibliotecas para coletarmos informações sobre o que elas usam de recursos do Alexandria até irmos em busca desse conhecimento e desenvolvermos somente o que ele não tem, tipo esse envio de email automatico que acho que ele não tem. Da uma ideia ai rapazeada, vamos somar.
 
-### Rename your forked repository
+* **Projetos**
 
-Here we have two possibilities:
+* Melhorias na Divulgação(Varias linguagens site, flyer, Email, grupo WhatsApp)
 
-* **You want a user or organization website**
+* Software Bibliotecas
 
-  In this case your website's URL will be `http://<your username>.github.io` where `<your username>` is your Github user name.
-
-  Go in the `Settings` page of your repository and rename it to `<your username>.github.io`.
-
-* **You want a project website**
-
-  In this case your website's URL will be `http://<your username>.github.io/<whatever you want>` where `<whatever you want>` can be any valid name for a Github repository.
-
-  Go in the `Settings` page of your repository and rename it to `<whatever you want>`.
-
-### Activate Github Pages on your repository
-
-Go in the `Settings` page of your repository, in the `Github Pages`, under the `Source` parameter, choose `master branch` then `Save`.
-
-### That's it
-
-Your Github Pages website with customizable Bootstrap 4 is now up and running, you can access it using the URL displayed by Github in the `Github Pages` settings.
-
-## Customization Guide
-
-### Modify the configuration
-
-You should at least edit the `_config.yml` file to edit your website's metadata, like the title, description and repository URL.
-
-### Change your theme
-
-This website uses the [Minty](https://bootswatch.com/minty/) Bootstrap theme by default. And you don't want to use the same theme everyone else uses do you?
-
-You can of course modify anything in the `_includes`, `_layouts` and `_sass` folders to customize both the HTML or CSS of your website, possibly referring to the [Bootstrap documentation](https://getbootstrap.com/) or the [Jekyll documentation](https://jekyllrb.com/) when needed. This is a normal part of web development and it is outside the scope of this guide.
-
-But if you don't know where to start I can recommend you to import a theme from [Bootswatch](https://bootswatch.com/).
-
-* Go on [Bootswatch](https://bootswatch.com/) and choose a theme that you like.
-* Using the top bar, download its `_variables.scss` and `_bootswatch.scss` files.
-* Copy the content of `_variables.scss` in `_sass/_variables.scss`.
-* Copy the content of `_bootswatch.scss` in `_sass/_bootstrap_customization.scss`.
-
-That's it, you now have a totally different appearance for you website.
-
-### Modify the content
-
-You probably don't want the present guide to be the front page of your website, so you should edit the `index.md` file. You probably also want to edit or delete the `CONTRIBUTING.md`, `README.md` and `LICENSE.md` files.
-
-Aside from that you can of course create new pages and posts like with any Jekyll website by refering to the [Jekyll documentation](https://jekyllrb.com/).
-
-### Run Jekyll on your computer to speed up testing
-
-Editing your website's content or theme directly on Github is completely possible but, due to the time Github Pages takes to update your website, it will probably be much more effective to work using a local Jekyll installation.
-
-To do so:
-
-* Install the [requirements for Jekyll](https://jekyllrb.com/docs/installation/).
-* Type `bundle install` at the root of your project to install the necessary Ruby dependencies.
-* Type `bundle exec jekyll serve` to launch the test Jekyll web server that will re-compile your work if you edit it.
-* You can then open `http://localhost:4000` in your web browser to see your work-in-progress website.
-
-Please note that, to ensure maximum compatibility with Github Pages, the `Gemfile` of this project references the `github-pages` gem, not Jekyll directly. This implies some differences in behavior compared to the official documentation of Jekyll.
-
-## Known issues
-
-* Bootstrap 4 should normally be post-processed using [Autoprefixer](https://github.com/postcss/autoprefixer). Even if it is possible to use autoprefixer with Jekyll, it is not possible with a classic Github Pages installation without adding some kind of pre-processing before publication. Since this project mostly aims compatibility with Github Pages I prefer to keep it that way. The consequences of this choice is that some Bootstrap features could not work as expected on older browsers.
-
-## How to contribute
-
-Like this project ? [Consider adding a star on Github](https://github.com/nicolas-van/bootstrap-4-github-pages).
-
-[You can also see the contribution guide](https://github.com/nicolas-van/bootstrap-4-github-pages/blob/master/CONTRIBUTING.md).
-
-## Websites using Bootstrap 4 Github Pages
-
-* [My personal blog](https://nicolas-van.github.io/)
-* [the wavelet's profile](https://thewavelet.github.io/)
-* [roseblood.github.io](https://roseleblood.github.io/)
-* [colemannick.github.io](https://colemannick.github.io/)
-* [Betty and the Blushtones](http://bettyandtheblushtones.co.uk/)
-* [borislouis.github.io](https://borislouis.github.io/)
-* [dariusnwadike.github.io](https://dariusnwadike.github.io/)
-
-## Other projects
-
-[Easy Markdown to Github Pages](https://nicolas-van.github.io/easy-markdown-to-github-pages/) which documents how to publish Markown files to Github Pages in the fastest way.
+* Aplicativo do Edinho
