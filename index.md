@@ -1,9 +1,30 @@
 ---
 layout: page
-title: Bootstrap 4 Github Pages
+title: Hacker Space CCDL
 ---
 
-A [Bootstrap 4](https://getbootstrap.com/) start up project for [Github Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/).
+## CHANGELOG: 10/12/2019
+
+[Email]
+
+* Criado email para o Hacker Space CCDL.
+* email: `hackerspaceccdl@gmail.com`
+
+[Github]
+
+* Para compartilhamento de códigos produzidos pelo grupo e atividades, foi
+  criado uma conta no Github
+
+* login: hackerspaceccdl
+
+# CHANGELOG: 03/12/2019
+`... em construção`
+
+
+
+
+
+
 
 * A full Bootstrap 4 theme usable both on Github Pages and with a standalone Jekyll.
 * Recompiles Bootstrap from SCSS files, which allows to customize Bootstrap's variables and use Bootstrap themes.
